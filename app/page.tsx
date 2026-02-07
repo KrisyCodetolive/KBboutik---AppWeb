@@ -34,31 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CTA FIXE */}
-      <div className="fixed bottom-6 left-0 right-0 flex justify-center z-50 p-5">
-        <button
-          onClick={() => {
-            console.log("Passer commande");
-          }}
-          className="
-            bg-purple-600 
-            text-white 
-            w-full
-            text-lg 
-            font-semibold 
-            px-8 
-            py-4 
-            rounded-full 
-            shadow-lg 
-            hover:bg-purple-700 
-            transition 
-            active:scale-95 
-            active:bg-gray-500
-          "
-        >
-          Passer commande
-        </button>
-      </div>
+      
     </div>
   );
 }
